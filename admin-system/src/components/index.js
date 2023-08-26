@@ -1,0 +1,27 @@
+// 通过组件
+import Header from "./common/Header";
+import SideBar from "./common/SideBar";
+import Breadcrumb from "./common/Breadcrumb";
+import SearchWarp from "./common/SearchWarp";
+import ContentWarp from "./common/ContentWarp";
+
+import SelectCompany from "./form/SelectCompany";
+import SelectProduct from "./form/SelectProduct";
+import SelectProcess from "./form/SelectProcess";
+import SelectRole from "./form/SelectRole";
+import SelectAddress from "./form/SelectAddress";
+import SelectDepartment from "./form/SelectDepartment";
+
+export default {
+  Header,
+  SideBar,
+  Breadcrumb,
+  SearchWarp,
+  ContentWarp,
+  SelectCompany,
+  SelectProduct,
+  SelectProcess,
+  SelectRole,
+  SelectAddress,
+  SelectDepartment
+};
